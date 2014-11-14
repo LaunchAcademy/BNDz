@@ -1,0 +1,10 @@
+<h1>BNDz</h1>
+
+<ul>
+  <% @people.each do |person| %>
+    <li>
+      <strong><%= person[:name] %>: </strong>
+      <%= person[:favorite_band] %>
+    </li>
+  <% end %>
+</ul>
